@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sreg.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <title>Student Registration</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form">
+            <form>
+                <h2>Student Registration form</h2>
+                <div class="home">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="form-group">
+                    <h4>Name of the applicant</h4>
+                    <div class="name">
+                        <span>First Name:</span>
+                        <input type="text" class="first">
+                        <span>Last name:</span>
+                        <input type="text" class="last">
+                    </div>
+                    <div class="date">
+                        <span>Date of birth:</span>
+                        <input type="date" class="daten">
+                    </div>
+                    <div class="add-infor">
+                        <h2>Additional Information</h2>
+                        <div class="email-phone">
+                            <span>Email:</span>
+                            <input type="email" class="email">
+                            <span>Phone Number:</span>
+                            <input type="text" class="phone">
+                        </div><br>
+                        <div class="dept">
+                            <span>Department:</span>
+                            <select name="dept-list" id="dept-list">
+                                <option value="science">Science</option>
+                                <option value="ssocial and management science">Social and Management science</option>
+                                <option value="art">Art</option>
+                                <option value="agriculture">Agriculture</option>
+                            </select><br>
+                            <div class="gen">
+                                <span>Gender:</span>
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Female</label>
+                                <input type="radio" id="other" name="gender">
+                                <label for="other">Other</label>
+                            </div>
+                        </div>
+                        <div class="result">
+                            <span>O, level:</span>
+                            <input type="text" placeholder="WAEC">
+                            <span>Secondary School:</span>
+                            <input type="text">
+                        </div>
+                        <div class="curse">
+                            <span>Username:</span>
+                            <input type="text" class="username-user">
+                            <span>Password:</span>
+                            <input type="password" class="user-password">
+                            <span>Comfirm Password:</span>
+                            <input type="password" class="comfirm-password">
+                        </div>
+                    </div>
+                    <div class="par-info">
+                        <h2>Parent's Information</h2>
+                        <div class="details">
+                            <div class="father">
+                                <input type="text" placeholder="Father's Name">
+                            </div>
+                            <div class="fa-qua">
+                                <input type="text" placeholder="Father's Qualification">
+                            </div>
+                            <div class="fa-email">
+                                <input type="text" placeholder="Father's Email & Phone No">
+                            </div>
+                            <div class="fa-occ">
+                                <input type="text" placeholder="Father's Occupation">
+                            </div>
+                            <div class="mather">
+                                <input type="text" placeholder="Mother's Name">
+                            </div>
+                            <div class="mo-qua">
+                                <input type="text" placeholder="Mother's Qualification">
+                            </div>
+                            <div class="mo-email">
+                                <input type="text" placeholder="Mother's Email & Phone No">
+                            </div>
+                            <div class="mo-occ">
+                                <input type="text" placeholder="Mother's Occupation">
+                            </div>
+                        </div>
+                        <div class="addr">
+                            <h2>Address</h2>
+                            <div class="res-add">
+                                <div class="add-res">
+                                    <p>Residential Address:</p>
+                                    <textarea name="text" id="" cols="" rows="4"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="stud.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+}
+.container{
+    position: relative;
+}
+.form{
+    width: 90%;
+    margin-left: 5%;
+}
+.form h2{
+    background-color: gray;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    font-size: 1rem;
+    box-shadow: 2px 2px;
+}
+.home{
+    float: right;
+    background-color: blue;
+    padding: 5px 3px;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: .50s ease-in-out;
+    cursor: pointer;
+}
+.home a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 10px;
+    font-family: sans-serif;
+    display: block;
+}
+.home:hover{
+    background-color: gray;
+    padding: 6px 4px;
+}
+.form span{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.form-group h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*------- Begin Form ------*/
+.name{
+    width: 30%;
+}
+.date{
+    width: 30%;
+    margin-bottom: 8px;
+}
+.date input{
+    width: 162px;
+    cursor: pointer;
+}
+.add-infor{
+    margin-bottom: 10px;
+}
+.email-phone{
+    margin-top: 10px;
+    width: 30%;
+}
+.dept{
+    width: 18%;
+}
+.result{
+    width: 35%;
+}
+.result span{
+    font-size: 0.8rem;
+}
+.curse{
+    width: 35%;
+}
+.details{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.details input{
+    width: 100%;
+    padding: 1%;
+}
+.res-add{
+    margin-top: 10px;
+}
+.add-res p{
+    background-color: blue;
+    position: absolute;
+    width: 90.2%;
+    padding: 3px;
+}
+.add-res textarea{
+    width: 100%;
+}
+.btn{
+    width: 100%;
+    padding: 5px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*------- WIDTH 600PX -------*/
+
+@media screen and (min-width:600px){
+    .home{
+        margin-top: -25px;
+    }
+    .name{
+        width: 100%;
+    }
+    .date{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .email-phone{
+        width: 100%;
+    }
+    .dept{
+        width: 100%;
+    }
+    .gen{
+        margin-top: 10px;
+    }
+    .result{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .curse{
+        width: 100%;
+        margin-top: 10px;
+    }
+}

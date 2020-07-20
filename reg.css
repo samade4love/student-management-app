@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    position: relative;
+}
+.contain{
+    width: 100%;
+}
+.sch-bar{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    height: 6vh;
+}
+.sch-name{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.sch-name i{
+    color: wheat;
+}
+.home{
+    float: right;
+    margin-top: -20px;
+    padding-right: 10px;
+}
+.home a{
+    color: white;
+    text-decoration: none;
+}
+.stu-reg-top{
+    background-color: rgb(218, 213, 213);
+    width: 100%;
+    border-radius: 1px;
+    box-sizing: border-box;
+    color: honeydew;
+}
+.stu-reg{
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.stu-reg li{
+    list-style: none;
+}
+.stu-reg a{
+    text-decoration: none;
+    color: honeydew;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+}
+.registration{
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.main-body{
+    width: 100%;
+}
+/*------ Start there ------*/
+.sub-main-body{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 15px;
+    border: 5px solid gray;
+    border-radius: 5px;
+    padding: 12px;
+    color: gray;
+}
+.sub-main-body label{
+    color: green;
+    font-weight: bolder;
+}
+.sub-main-body h5{
+    background-color: gray;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.prepare{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.prepare i{
+    color: blue;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.prepare a{
+    color: gray;
+    font-size: 15px;
+}
+.drop{
+    margin-bottom: 10px;
+}
+.drop i{
+    color: blue;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.drop a{
+    color: gray;
+    font-size: 15px;
+}
+.browse{
+    margin-bottom: 10px;
+}
+.browse i{
+    color: blue;
+    font-size: 35px;
+    padding-right: 10px;
+}
+.browse a{
+    color: gray;
+    font-size: 15px;
+}
+.view{
+    margin-bottom: 10px;
+}
+.view i{
+    color: blue;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.view a{
+    color: gray;
+    font-size: 15px;
+}
+.catalog{
+    margin-bottom: 10px;
+}
+.catalog i{
+    color: blue;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.catalog a{
+    color: gray;
+    font-size: 15px;
+}
+
+/*------- width 600px -------*/
+
+@media screen and (min-width:600px){
+    .sub-main-body{
+        padding-bottom: 80px;
+    }
+    .prepare{
+        width: 40%;
+    }
+    .prepare a{
+        color: blue;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .drop{
+        width: 40%;
+        float: right;
+        margin-top: -75px;
+    }
+    .drop a{
+        color: blue;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .browse{
+        width: 40%;
+    }
+    .browse a{
+        color: blue;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .view{
+        float: right;
+        width: 40%;
+        margin-top: -75px;
+    }
+    .view a{
+        color: blue;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .catalog{
+        width: 40%;
+    }
+    .catalog a{
+        color: blue;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+}
+
+/*------ width 800px -------- */
+@media screen and (min-width:975px){
+    .drop{
+        width: 40%;
+        margin-top: -58px;
+    }
+}
